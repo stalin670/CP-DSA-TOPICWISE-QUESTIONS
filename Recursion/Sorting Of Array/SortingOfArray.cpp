@@ -19,6 +19,9 @@ using namespace std;
 // Insert the element back to stack
 void insert(vector<int> &v ,int last){
     if(v.size()==0 || v[v.size()-1]<=last){
+        // If you want to sort in decreasing order
+        // Just replace 
+        // Use v[v.size()-1]>=last in place of v[v.size()-1]<=last at line 21
         v.push_back(last);
         return;
     }
