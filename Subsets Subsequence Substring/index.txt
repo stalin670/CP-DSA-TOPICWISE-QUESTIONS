@@ -1,0 +1,47 @@
+/**
+ * @file index.txt
+ * @date 2022-05-02
+ * @copyright Copyright (c) 2022
+**/
+
+Here i want to tell the difference between 3 things :
+(1) Subsets
+(2) Subsequences
+(3) Substrings
+
+(1) Subsets :
+	In Subsets , It contains all the possible sets of a given set including 
+	null set.
+	
+	e.g. string s="abc"
+	
+	Posssible subsets are:
+	{ " " , "a" , "b" , "c" , "ab" , "bc" , "ca" , "abc" }
+
+(2) Subsequences :
+	In Subsequences, It can have all the possible set of anything but
+	the order will be maintained.
+	I want to explain it by taking example.
+
+	e.g. string="abc"
+
+	Possible subsequences are:
+	{ "a" , "b" , "c" , "ab" ,"bc" , "ac" , "abc" } are subsequences but
+	{ "ca" , "ba" } are not subsequences because 
+	the order are changed. a should come before c and b as in 
+	original string.
+
+(3) Substring :
+	In Substrings, they form contigues part of a given string.
+	You can not take like first char and then last char
+	You've to take in continues order and can't skip the char
+	in between.
+	
+	e.g. string="abcd"
+	{ "a" , "b" , "ab" , "bc" , "cd" , "abc" , "bcd" , "abcd" , "c" , "d" } are  substrings
+
+	{ "ac" , "bd" , "acd"  } these are not substrings because you skip the 
+	charcters between first and last char from original string.
+
+
+
