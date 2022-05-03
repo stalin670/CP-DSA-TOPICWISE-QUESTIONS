@@ -41,6 +41,11 @@
 
 */
 
+// Question link for practice -> https://practice.geeksforgeeks.org/problems/josephus-problem/1#
+// You can check it now, go through the code.
+// Keep practicing.
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
