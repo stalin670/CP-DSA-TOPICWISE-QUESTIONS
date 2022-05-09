@@ -44,7 +44,7 @@ bool CheckPalindrome(string s,int i,int j){
 
 }
 
-// MCM Bottom up (Memoization) function
+// Palindrome partitioning (Recursive) function
 int PalindromePartitioning(string s,int i,int j){
     if(i>=j){
         return 0;
